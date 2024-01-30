@@ -5,3 +5,5 @@ An example of a personal website with different hover features, focused on detai
 Created using HTML and CSS.
 
 You can follow it from the gif image below.
+
+![Animation](https://github.com/oranmehmetsirin/Personal-Website/blob/main/screen.gif?raw=true)
