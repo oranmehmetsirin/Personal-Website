@@ -1,0 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Montaga";
+    background-color: black;
+}
+section{
+    margin: 75px 50px;
+    padding: 50px 25px;
+}
+.section-title{
+    margin: 12.5px;
+}
+.section-title h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    transition: all 1s ease-in-out;
+}
+header{
+    border-bottom: 1px solid  rgba(100, 150, 25, .75);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 37.5px;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 87.5%;
+    padding: 10px;
+}
+header .navbar ul{
+    display: flex;
+}
+header .navbar ul li span{
+    color: rgba(100, 150, 25, .875);
+    cursor: pointer;
+}
+header .navbar ul li:hover{
+    scale: 1.125;
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+header .navbar a{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+header .navbar .logo a{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.inner-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 12.5px;
+    margin-bottom: -12.5px;
+    width: 93.75%;
+    color: white;
+    padding: 25px;
+    flex-basis: 37.5%;
+}
+.child-home h1{
+    font-size: 37.5px;
+    margin: 25px;
+}
+.span-child{
+    color: rgba(100, 150, 25, .75);
+    font-size: 31.25px;
+    margin: 12.5px;
+}
+.child-home p{
+    font-size: 25px;
+    margin: 25px;
+}
+.btn{
+    background: transparent;
+    border: 1px solid rgba(100, 150, 25, .75);
+    box-shadow: rgba(50, 75, 12.5, .45) 1.25px 3.75px 8.75px;
+    color: white;
+    padding: 12.5px 25px;
+    font-size: 18.75px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 25px;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+ }
+ .btn:hover{
+    letter-spacing: .25px;
+    box-shadow: rgba(75, 112.5, 18.75, .6) 2.5px 7.5px 17.5px;
+    transition: all .25s ease-in-out;
+ }
+ .title{
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-size: 37.5px;
+ }
+ .title span{
+    color: rgba(100, 150, 25, .875);
+ }
+ .inner-software{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 87.5%;
+    margin: auto;
+ }
+ .inner-software-child{
+    padding: 25px;
+    border: 1px solid rgba(100, 150, 25, .75);
+    border-radius: 5px;
+    width: 500px;
+    height: 125px;
+    box-shadow: rgba(50, 75, 12.5, .45) 1.25px 3.75px 8.75px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+ }
+ .inner-software-child:hover{
+    box-shadow: rgba(75, 112.5, 18.75, .6) 2.5px 7.5px 17.5px;
+    scale: 1.0125;
+    transition: all .25s ease-in-out;
+ }
+ .inner-software-child h3{
+    font-size: 25px;
+    margin: 5px;
+ }
+ .inner-software-child p{
+    font-size: 15.625px;
+ }
+ .inner-certificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 93.75%;
+    margin: auto;
+    color: white;
+    text-align: center;
+ }
+ .certificate-child{
+    flex-basis: 31.25%;
+    padding: 25px;
+    transition: all .1875s ease-in-out;
+    cursor: pointer;
+ }
+ .certificate-child:hover{
+    border: .5px solid rgba(100, 150, 25, .75);
+    transition: all .1875s ease-in-out;
+ }
+ .certificate-child h5{
+    font-size: 21.875px;
+    margin-top: 3.125px;
+    margin-bottom: -3.125px;
+ }
+ .inner-achievement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+ }
+ .achievement-child{
+    color: white;
+    flex-basis: 37.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+ }
+ .achievement-child img{
+    border-radius: 1.25px;
+ }
+ .details{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .single-detail{
+    width: 250px;
+    height: 250px;
+    border: .5px solid rgba(100, 150, 25, .75);
+    border-radius: 2.5px;
+    box-shadow: rgba(50, 75, 12.5, .45) 1.25px 3.75px 8.75px;
+    margin: 25px;
+    padding: 50px;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+ }
+ .single-detail:hover{
+    border: .5px solid rgba(100, 150, 25, .75);
+    box-shadow: rgba(75, 112.5, 18.75, .6) 2.5px 7.5px 17.5px;
+    scale: 1.0125;
+    transition: all .25s ease-in-out;
+ }
+ .inner-project{
+    color: white;
+    text-align: center;
+ }
+ .projects{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    gap: 37.5px;
+ }
+ .single-project{
+    color: white;
+    text-align: center;
+    transition: all .125s ease-in-out;
+    cursor: pointer;
+ }
+ .single-project:hover{
+    box-shadow: rgba(75, 112.5, 18.75, .6) 2.5px 7.5px 17.5px;
+    scale: 1.025;
+    transition: all .125s ease-in-out;
+ }
+ .single-project h5{
+    font-size: 15.625px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+ }
